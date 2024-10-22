@@ -27,7 +27,8 @@
 
 }
 .nav1 a{
-    color: white;
+
+    color:white;
     text-decoration: none;
     align-items: center;
 }
@@ -37,12 +38,15 @@
     display: flex;
 }
 .img{
+
     background-image: url(../mages/img1.jpg);
-height: 1000px;
-background-position: center center;
-margin: 0px;
+    height: 700px;
+    background-position: center center;
+    padding-top: 100px;
+    padding-left: 150px;
+    
+
 }
-.img1{
-    padding-left: 200px;
-    margin: 200px;
+.a{
+    
 }
