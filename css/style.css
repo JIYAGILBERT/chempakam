@@ -36,3 +36,13 @@
     color: white;
     display: flex;
 }
+.img{
+    background-image: url(../mages/img1.jpg);
+height: 1000px;
+background-position: center center;
+margin: 0px;
+}
+.img1{
+    padding-left: 200px;
+    margin: 200px;
+}
