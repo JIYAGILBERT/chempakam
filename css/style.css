@@ -3,7 +3,8 @@
 }
 .animation-bar{
     background-color:#ffdab3;
-    height: 50px;
+    height: 30px;
+    text-align: center;
     
 }
 .top-animation-bar{ 
@@ -36,9 +37,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: white;
-    height: 50px;
+    height: 100px;
     width: 100px;
+
+    /*background-color: white;
     */
         
 }
@@ -96,6 +98,7 @@ ul li ul li:hover {background: #666;}
     display: flex;
     height: 40px;
     color: gray;
+    border: rgb(30, 28, 29);;
     
 }
 .nav-ico{
@@ -104,6 +107,10 @@ ul li ul li:hover {background: #666;}
     padding: 15px;
     
 
+}
+.serch-ico{
+    border: black;
+    height: 20px;
 }
 .face-ico{
     color:rgb(207, 199, 199);
@@ -128,10 +135,86 @@ ul li ul li:hover {background: #666;}
 
 }
 .home-image{
-    color: palevioletred;
+    background-size: cover;
     height: 600px;
-    width: 900px;
+    background-image: url('../mages/1sthome.jpg');
+    background-repeat: no-repeat; 
 }
+.home-head{
+    color: white;
+    margin-left: 600px;
+    padding: 90px;
+}
+
+.shop-button{ height: 50px; 
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-size: 18px;
+    border: none;
+    margin-left: 700px;
+    color: rgb(71, 66, 66);
+    
+    }
+.dis-button{
+    height: 50px; 
+    width: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-size: 18px;
+    border: none;
+    margin-left: 700px;
+    color: rgb(71, 66, 66);
+    
+}
+.circle{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+  
+}
+.cir-1{
+    padding: 5px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+
+} 
+.hed-bestsellingproduct{color: gray; text-align: center; margin-top: 5%;}
+
+.box{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    background-color: green;
+    flex-wrap: wrap;
+    padding: 60px;
+    height:100vh ;
+}
+.box1{
+    width: 20%;
+    height: 45%;
+    margin: 20px 20px;
+    background-color: red;
+    padding: 5px;
+}
+.box1-img{
+    background-color: yellow;
+    height: 60%;
+    width: 100%;
+}
+.box1-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.box1-content{
+    background-color: pink;
+    height: 40%;
+    width: 100%;
+}   
 /*
 
     height: 200px;
@@ -218,37 +301,4 @@ ul li ul li:hover {background: #666;}
     border-radius: 50%;
 
 }
-.hed-bestsellingproduct{color: gray; text-align: center; margin-top: 5%;}
-
-.box{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 6%;
-    background-color: green;
-    flex-wrap: wrap;
-    padding: 60px;
-    height:100vh ;
-}
-.box1{
-    width: 20%;
-    height: 45%;
-    margin: 20px 20px;
-    background-color: red;
-    padding: 5px;
-}
-.box1-img{
-    background-color: yellow;
-    height: 60%;
-    width: 100%;
-}
-.box1-img img{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-}
-.box1-content{
-    background-color: pink;
-    height: 40%;
-    width: 100%;
-}*/
+*/
