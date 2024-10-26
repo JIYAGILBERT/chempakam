@@ -4,6 +4,7 @@
 .animation-bar{
     background-color:#ffdab3;
     height: 30px;
+    width: 2000px;
     text-align: center;
     
 }
@@ -22,6 +23,7 @@
     background-attachment: fixed;
     display: flex;
     height: 120px;
+    width: 2000px;
 }
 .chem-nav{ 
       
@@ -137,6 +139,7 @@ ul li ul li:hover {background: #666;}
 .home-image{
     background-size: cover;
     height: 600px;
+    width: 2000px;
     background-image: url('../mages/1sthome.jpg');
     background-repeat: no-repeat; 
 }
@@ -214,7 +217,33 @@ ul li ul li:hover {background: #666;}
     background-color: pink;
     height: 40%;
     width: 100%;
-}   
+} 
+.footer{
+    background-color: black;
+    height: 300px;
+    width: 2000px;
+    display: flex;
+}  
+.footer-logo{
+    margin-top: 90px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+.footer-solutions{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.footer-solutions li{ 
+    list-style: none;
+    margin: 10px 10px;
+}
+.footer-solutions h4{
+    margin-bottom: 20px;
+    margin-top: 1px;
+}
 /*
 
     height: 200px;
