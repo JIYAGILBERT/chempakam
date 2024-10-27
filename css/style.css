@@ -366,6 +366,7 @@ ul li ul li:hover {background: #666;}
     /*background-color: pink;*/
     height: 40%;
     width: 100%;
+<<<<<<< HEAD
 }   
 .content{
     margin-left: 4%;
@@ -390,6 +391,34 @@ ul li ul li:hover {background: #666;}
     margin-top: 20px;
     margin-left:650px ;
     color: rgb(100, 97, 97);
+=======
+} 
+.footer{
+    background-color: black;
+    height: 300px;
+    width: 2000px;
+    display: flex;
+}  
+.footer-logo{
+    margin-top: 90px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+.footer-solutions{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.footer-solutions li{ 
+    list-style: none;
+    margin: 10px 10px;
+}
+.footer-solutions h4{
+    margin-bottom: 20px;
+    margin-top: 1px;
+>>>>>>> c77abb948ae1ac5f7c9a5f144c03d1924b5abc1f
 }
 /*
 .footer{
