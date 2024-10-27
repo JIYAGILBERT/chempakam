@@ -4,7 +4,9 @@
 .animation-bar{
     background-color:#ffdab3;
     height: 30px;
+    width: 2000px;
     text-align: center;
+    
     
 }
 .top-animation-bar{ 
@@ -22,6 +24,7 @@
     background-attachment: fixed;
     display: flex;
     height: 120px;
+    width: 2000px;
 }
 .chem-nav{ 
       
@@ -111,38 +114,51 @@ ul li ul li:hover {background: #666;}
 .serch-ico{
     border: black;
     height: 20px;
+    margin: 4%;
+    margin-right: 100px;
 }
 .face-ico{
     color:rgb(207, 199, 199);
     font-size: 50px;
+    margin: 5% 10px 10px ;
+    display: flex;
+    margin-top: 23px;
     
 }
 .insta-ico{
     color: white;
     margin-top: 30px;
+    margin: 5% 10px 10px;
+    margin-top: 23px;
 
 }
 
 .fav-ico{
     color: gold;
-    margin-top: 0px;
-    
+    margin:5% 8px 10px;
+    display: flex;
     font-size: 50px;
+    margin-top: 23px;
 }
 .shop-cart{
     color: gold;
     margin-top: 30px;
+    margin:5% 8px 10px;
+    display: flex;
+    margin-top: 23px;
 
 }
 .home-image{
     background-size: cover;
     height: 600px;
+    width: 2000px;
     background-image: url('../mages/1sthome.jpg');
     background-repeat: no-repeat; 
+    
 }
 .home-head{
     color: white;
-    margin-left: 600px;
+    margin-left: 100px;
     padding: 90px;
 }
 
@@ -152,7 +168,7 @@ ul li ul li:hover {background: #666;}
     color:black;
     font-size: 18px;
     border: none;
-    margin-left: 700px;
+    margin-left: 250px;
     color: rgb(71, 66, 66);
     
     }
@@ -163,45 +179,181 @@ ul li ul li:hover {background: #666;}
     color:black;
     font-size: 18px;
     border: none;
-    margin-left: 700px;
+    margin-left: 230px;
     color: rgb(71, 66, 66);
     
 }
-.circle{
+.parant-class-circle{ 
+    
+    width: 2000px;
+    height: 310px;
+    background-color:white;
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 4%;
-  
-}
-.cir-1{
-    padding: 5px;
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
+    
 
-} 
-.hed-bestsellingproduct{color: gray; text-align: center; margin-top: 5%;}
+}
+.circle-box-alignment{
+    /*margin-left: 40px;*/
+    display: flex;
+    margin-right: 35px;
+    
+    
+}
+.circle-1{
+    
+    background-color: red;
+    width: 200px;
+    height: 270px;
+    margin:20px 20px 20px 20px;
+    
+}
+.circle-1-image{
+    width:150px ;
+    height: 145px;
+    background-color: blueviolet;
+    
+    /*background-image:url('../mages/Wedding.webp') ;*/
+    border-radius: 50%;
+    margin-left: 14%;
+    
+}
+.circle-1-content{
+    background-color: aqua;
+    height:110px ;
+    margin:5px 5px 5px 5px ;
+    text-align: justify;
+}
+
+.circle-2{
+    background-color: red;
+    width: 210px;
+    height: 270px;
+    margin:20px 20px 20px 20px;
+    
+}
+.circle-2-image{
+    width:150px ;
+    height: 145px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 14%;
+    
+}
+.circle-2-content{
+    background-color: aqua;
+    height:110px ;
+    margin:5px 5px 5px 5px ;
+}
+.circle-3{
+    background-color: red;
+    width: 210px;
+    height: 270px;
+    margin:20px 20px 20px 20px;
+    
+}
+.circle-3-image{
+    width:150px ;
+    height: 145px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 14%;
+    
+}
+.circle-3-content{
+    background-color: aqua;
+    height:110px ;
+    margin:5px 5px 5px 5px ;
+}
+.circle-4{
+    background-color: red;
+    width: 210px;
+    height: 270px;
+    margin:20px 20px 20px 20px;
+    
+}
+.circle-4-image{
+    width:150px ;
+    height: 145px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 14%;
+    
+}
+.circle-4-content{
+    background-color: aqua;
+    height:110px ;
+    margin:5px 5px 5px 5px ;
+}
+.circle-5{
+    background-color: red;
+    width: 210px;
+    height: 270px;
+    margin:20px 20px 20px 20px;
+    
+}
+.circle-5-image{
+    width:150px ;
+    height: 145px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 14%;
+    
+}
+.circle-5-content{
+    background-color: aqua;
+    height:110px ;
+    margin:5px 5px 5px 5px ;
+}
+.circle-6{
+    background-color: red;
+    width: 210px;
+    height: 270px;
+    margin:20px 20px 20px 20px;
+    
+}
+.circle-6-image{
+    width:150px ;
+    height: 145px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 14%;
+    
+}
+.circle-6-content{
+   background-color: aqua;
+    height:110px ;
+    margin:5px 5px 5px 5px ;
+}
+.hed-bestsellingproduct{
+    color: gray;
+     text-align: center;
+      margin-top: 50px;
+    
+    }
 
 .box{
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 6%;
-    background-color: green;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4px;
+   /*background-color: green;*/
     flex-wrap: wrap;
-    padding: 60px;
+    padding: 50px;
     height:100vh ;
+    width: 1400px;
+    text-align: center;
+    align-items: center;
 }
 .box1{
-    width: 20%;
-    height: 45%;
+    width: 25%;
+    height: 50%;
     margin: 20px 20px;
-    background-color: red;
+    /*background-color: red;*/
     padding: 5px;
 }
 .box1-img{
-    background-color: yellow;
+    
+    /*background-color: yellow;*/
     height: 60%;
     width: 100%;
 }
@@ -211,11 +363,98 @@ ul li ul li:hover {background: #666;}
     height: 100%;
 }
 .box1-content{
-    background-color: pink;
+    /*background-color: pink;*/
     height: 40%;
     width: 100%;
 }   
+.content{
+    margin-left: 4%;
+    margin-top: 4px;
+    color: gray;
+    text-align: justify;
+    font-size: 20px;
+}
+.like-ico{
+    margin-left: 300px;
+}
+.browser-button button{
+    margin-top: 130px;
+    
+    padding: 20px;
+    color: gray;
+    margin-left: 550px;
+    margin-bottom: 40px;
+    
+}
+.new-arrivals{
+    margin-top: 20px;
+    margin-left:650px ;
+    color: rgb(100, 97, 97);
+}
 /*
+.footer{
+    background-color: black;
+    height: 300px;
+    width: 3000px;
+
+    display: flex;
+}  
+.footer-logo{
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.footer-solutions{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.footer-solutions li{ 
+    list-style: none;
+    margin: 10px 10px;
+}
+.footer-solutions h4{
+    margin-bottom: 20px;
+    margin-top: 1px;
+}*/
+.footer{
+    background-color: black;
+    display: flex;
+    height:350px;
+    width: 2000px;
+
+
+}
+.footer h4{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer li{
+    list-style: none;
+    margin: 15px;
+    color: rgb(175, 175, 175);
+}
+.footer div{
+    font-size: 15px;
+    font-weight: 500px;
+    /margin-left: 200px;/
+    margin-top: 50px;
+}
+.footlogo{
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.foot2{
+    margin-left: 0px;
+    
+}
+/*
+
 
     height: 200px;
     width: 200px;
@@ -300,5 +539,45 @@ ul li ul li:hover {background: #666;}
     width: 180px;
     border-radius: 50%;
 
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parant-class-circle{ 
+    width: 2000px;
+    height: 310px;
+    background-color: black;
+    display: flex;
+
 }
-*/
+.circle-1{
+    background-color: red;
+    width: 210px;
+    height: 270px;
+    margin:20px 20px 20px 20px;
+}
+.circle-1-image{
+    width:150px ;
+    height: 145px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 14%;
+    
+}
+.circle-content{
+    background-color: aqua;
+    height:110px ;
+    margin:5px 5px 5px 5px ;
+}
