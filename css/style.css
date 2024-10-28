@@ -183,147 +183,35 @@ ul li ul li:hover {background: #666;}
     color: rgb(71, 66, 66);
     
 }
-.parant-class-circle{ 
-    
-    width: 2000px;
-    height: 310px;
-    background-color:white;
+.circle-main{
+    height: 30vh;
     display: flex;
-    
-
-}
-.circle-box-alignment{
-    /*margin-left: 40px;*/
-    display: flex;
-    margin-right: 35px;
-    
-    
-}
-.circle-1{
-    
-    background-color: red;
-    width: 200px;
-    height: 270px;
-    margin:20px 20px 20px 20px;
-    
-}
-.circle-1-image{
-    width:150px ;
-    height: 145px;
-    background-color: blueviolet;
-    
-    /*background-image:url('../mages/Wedding.webp') ;*/
-    border-radius: 50%;
-    margin-left: 14%;
-    
-}
-.circle-1-content{
-    background-color: aqua;
-    height:110px ;
-    margin:5px 5px 5px 5px ;
-    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.circle-2{
-    background-color: red;
-    width: 210px;
-    height: 270px;
-    margin:20px 20px 20px 20px;
-    
+.circle-out{
+    height: 100%;
+    width: 20%;
+    margin: 0 10px;
+    background-color: transparent;
 }
-.circle-2-image{
-    width:150px ;
-    height: 145px;
-    background-color: blueviolet;
+.circleimg{
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
-    margin-left: 14%;
-    
+    background: url(/mages/Wedding.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.circle-2-content{
-    background-color: aqua;
-    height:110px ;
-    margin:5px 5px 5px 5px ;
-}
-.circle-3{
-    background-color: red;
-    width: 210px;
-    height: 270px;
-    margin:20px 20px 20px 20px;
-    
-}
-.circle-3-image{
-    width:150px ;
-    height: 145px;
-    background-color: blueviolet;
-    border-radius: 50%;
-    margin-left: 14%;
-    
-}
-.circle-3-content{
-    background-color: aqua;
-    height:110px ;
-    margin:5px 5px 5px 5px ;
-}
-.circle-4{
-    background-color: red;
-    width: 210px;
-    height: 270px;
-    margin:20px 20px 20px 20px;
-    
-}
-.circle-4-image{
-    width:150px ;
-    height: 145px;
-    background-color: blueviolet;
-    border-radius: 50%;
-    margin-left: 14%;
-    
-}
-.circle-4-content{
-    background-color: aqua;
-    height:110px ;
-    margin:5px 5px 5px 5px ;
-}
-.circle-5{
-    background-color: red;
-    width: 210px;
-    height: 270px;
-    margin:20px 20px 20px 20px;
-    
-}
-.circle-5-image{
-    width:150px ;
-    height: 145px;
-    background-color: blueviolet;
-    border-radius: 50%;
-    margin-left: 14%;
-    
-}
-.circle-5-content{
-    background-color: aqua;
-    height:110px ;
-    margin:5px 5px 5px 5px ;
-}
-.circle-6{
-    background-color: red;
-    width: 210px;
-    height: 270px;
-    margin:20px 20px 20px 20px;
-    
-}
-.circle-6-image{
-    width:150px ;
-    height: 145px;
-    background-color: blueviolet;
-    border-radius: 50%;
-    margin-left: 14%;
-    
-}
-.circle-6-content{
-   background-color: aqua;
-    height:110px ;
-    margin:5px 5px 5px 5px ;
-}
+
+
+/* .circleimg img{
+    height: 100%;
+    width: 100%;
+} */
 .hed-bestsellingproduct{
     color: gray;
      text-align: center;
@@ -366,7 +254,7 @@ ul li ul li:hover {background: #666;}
     /*background-color: pink;*/
     height: 40%;
     width: 100%;
-<<<<<<< HEAD
+
 }   
 .content{
     margin-left: 4%;
@@ -391,7 +279,7 @@ ul li ul li:hover {background: #666;}
     margin-top: 20px;
     margin-left:650px ;
     color: rgb(100, 97, 97);
-=======
+
 } 
 .footer{
     background-color: black;
@@ -418,7 +306,7 @@ ul li ul li:hover {background: #666;}
 .footer-solutions h4{
     margin-bottom: 20px;
     margin-top: 1px;
->>>>>>> c77abb948ae1ac5f7c9a5f144c03d1924b5abc1f
+
 }
 /*
 .footer{
@@ -470,7 +358,7 @@ ul li ul li:hover {background: #666;}
 .footer div{
     font-size: 15px;
     font-weight: 500px;
-    /margin-left: 200px;/
+    margin-left: 200px;
     margin-top: 50px;
 }
 .footlogo{
@@ -584,7 +472,7 @@ ul li ul li:hover {background: #666;}
 
 
 
-.parant-class-circle{ 
+/*.parant-class-circle{ 
     width: 2000px;
     height: 310px;
     background-color: black;
@@ -609,4 +497,47 @@ ul li ul li:hover {background: #666;}
     background-color: aqua;
     height:110px ;
     margin:5px 5px 5px 5px ;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circlem{
+    height: 30vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleout{
+    height: 100%;
+    width: 20%;
+    margin: 0 10px;
+    background-color: red;
+}
+
+.circleimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: yellow;
 }
