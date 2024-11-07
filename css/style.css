@@ -40,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    /* height: 100px; */
     width: 100px;
     display: none;
 
@@ -159,28 +159,29 @@ ul li ul li:hover {background: #666;}
 }
 .home-head{
     color: white;
-    margin-left: 100px;
-    padding: 90px;
+    margin-left: 0px;
+    padding: 40px;
+    font-size: 9px;
 }
 
-.shop-button{ height: 50px; 
+.shop-button{ height: 40px; 
     width: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
     margin-left: 250px;
     color: rgb(71, 66, 66);
     
     }
 .dis-button{
-    height: 50px; 
+    height: 40px; 
     width: 140px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
-    margin-left: 230px;
+    margin-left: 250px;
     color: rgb(71, 66, 66);
     
 }
@@ -192,7 +193,7 @@ ul li ul li:hover {background: #666;}
     margin-top: 40px;
 }
 
-.circle-out{
+.circle-out-1,.circle-out-2,.circle-out-3,.circle-out-4,.circle-out-5,.circle-out-6{
     height: 200px;
     border-radius: 360px;
     width: 200px;
@@ -268,12 +269,12 @@ ul li ul li:hover {background: #666;}
 
 .box{
     display: flex;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 4px;
+    
+    
+    
    /*background-color: green;*/
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 10px;
     height:100vh ;
     width: 100%;
     text-align: center;
@@ -361,6 +362,7 @@ ul li ul li:hover {background: #666;}
 .footer{
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     height:350px;
     width: 2000px;
 
@@ -403,6 +405,14 @@ ul li ul li:hover {background: #666;}
 @media(max-width: 854px){
     .menu-ico{
         display: inline;
+        margin: 30px;
+        width: 40px;
+
+    }
+    .menu-ico i{
+        width: 100%;
+        font-size: 25px;
+        
     }
     .nav-link{ 
         display: none;
@@ -410,18 +420,41 @@ ul li ul li:hover {background: #666;}
 
     .nav-ico{
          display: none;
-        }
+    }
     
     .animation-bar{
         width: 100%;
     }
+
     .nav{
         width: 100%;
+        height: 80px;
+    }
+    .chem-nav{
+        width: 200px;
+        margin: 10px;
+    }
+    .chem-nav img{
+        width: 100%;
+        /* height: 100%; */
+    }
+    .serch-ico{
+        display: inline;
     }
     .home-image{ 
         background-image: url('../mages/2ndhome');
         width: 100%;
-        height: 1600px;
+        height: 450px;
+        margin: 0;
+
+    }
+    .home-head{
+        margin: 0;
+        
+    }
+    .shop-button, .dis-button{
+        margin-left:100px ;
+        
     }
     
     .circleimg-6,.circleimg-5,.circleimg-4,.circleimg-3{
@@ -430,15 +463,43 @@ ul li ul li:hover {background: #666;}
          height: 50%;
          margin-left: 40px;
         }
+    .circle-out-6,.circle-out-5,.circle-out-4,.circle-out-3{
+        display: none;
+    }
+    .circleimg-1,.circleimg-2{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .circle-out-1,.circle-out-2{
+        width: 40%;
+        height: 350px;
+    }
+    .box{
+        height: 60vh;
+    }
+    .box1{
+        width: 16%;
+        height: 35%;
+        margin: 20px 30PX;
+
+    }
+    .box1-content,.content{
+        font-size: 10px;
+    }
+    .like-ico{display: none;}
     
-    .hed-bestsellingproduct{ display: none;}
+    .hed-bestsellingproduct{ 
+        margin-top: 80px;
+    }
     
-    .browser-button{ display: none;}
+    /* .browser-button{ display: none;} */
     
-    .new-arrivals{display: none;}
+    /* .new-arrivals{display: none;} */
     
     .footer{
         width: 100%;
+        height: 100vh;
     }
 }
 
